@@ -131,8 +131,10 @@ a{
     font-size: 2rem;
 }
 
-.logo a{
-    color: var(--primaryTextColor);
+.logo img{
+    margin: auto;
+    border-radius: 50%;
+    height: 3rem;
 }
 
 nav ul li{
