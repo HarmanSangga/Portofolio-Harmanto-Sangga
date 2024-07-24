@@ -124,6 +124,10 @@ a {
     gap: 3rem;
 }
 
+.portfolio .portfolio-info p {
+    text-align: justify;
+}
+
 /* Logo and navigation menu */
 
 .nav {
@@ -282,6 +286,7 @@ nav ul li a {
 .portfolio h4 {
     font-weight: 500;
     font-size: 1.5rem;
+    height: 3rem;
 }
 
 .portfolio-title a svg:hover {
