@@ -65,7 +65,7 @@ a {
     margin: 0 auto;
 }
 
-.main-container .nav ul li .nav-a:hover {
+.nav ul li .nav-a:hover {
     color: grey;
     border-bottom: .1rem solid black;
     padding-bottom: .5rem;
@@ -129,11 +129,22 @@ a {
 }
 
 /* Logo and navigation menu */
+.scrolled {
+    background: #ececec;
+    opacity: 0.89;
+}
+
 
 .nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    /* Menambahkan ini */
     display: flex;
     justify-content: space-between;
-    padding: 2rem 0;
+    padding: 1rem 2rem;
 }
 
 .nav ul {
@@ -155,14 +166,25 @@ a {
     height: 3rem;
 }
 
+nav ul li button {
+    font-weight: bold;
+
+
+}
+
 nav ul li {
+    font-weight: bold;
     display: flex;
     align-items: center;
 }
 
+
+
 nav ul li a {
     color: var(--primaryTextColor)
 }
+
+
 
 /* Burgeer */
 
